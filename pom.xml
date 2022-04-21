@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.example</groupId>
@@ -12,10 +11,10 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</connection>
-		<developerConnection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</developerConnection>
+		<connection>scm:git:ssh://github.com/AntonMishyn/testMavenReleasePlugin</connection>
+		<developerConnection>scm:git:ssh://github.com/AntonMishyn/testMavenReleasePlugin</developerConnection>
 		<tag>v@{version}</tag>
-		<url>git@github.com:AntonMishyn/testMavenReleasePlugin.git</url>
+		<url>https://github.com/AntonMishyn/testMavenReleasePlugin</url>
 	</scm>
 
 	<build>
