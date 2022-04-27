@@ -24,7 +24,9 @@
 				<artifactId>gitflow-maven-plugin</artifactId>
 				<version>1.13.0</version>
 				<configuration>
-					<!-- optional configuration -->
+					<gitFlowConfig>
+						<developmentBranch>main</developmentBranch>
+					</gitFlowConfig>
 				</configuration>
 			</plugin>
 		</plugins>
