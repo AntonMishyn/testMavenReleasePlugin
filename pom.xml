@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.example</groupId>
+	<artifactId>test</artifactId>
+	<version>1.1-SNAPSHOT</version>
+
+	<properties>
+		<maven-release-plugin.version>3.0.0-M4</maven-release-plugin.version>
+	</properties>
+
+	<scm>
+		<connection>scm:git:ssh://github.com/AntonMishyn/testMavenReleasePlugin</connection>
+		<developerConnection>scm:git:ssh://github.com/AntonMishyn/testMavenReleasePlugin</developerConnection>
+		<tag>v@{version}</tag>
+		<url>https://github.com/AntonMishyn/testMavenReleasePlugin</url>
+	</scm>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>${maven-release-plugin.version}</version>
+				<configuration>
+					<goals>pre-integration-test</goals>
+					<preparationGoals>package</preparationGoals>
+					<allowTimestampedSnapshots>true</allowTimestampedSnapshots>
+					<tagNameFormat>v@{version}</tagNameFormat>
+					<remoteTagging>false</remoteTagging>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
