@@ -4,7 +4,7 @@
 
 	<groupId>org.example</groupId>
 	<artifactId>test</artifactId>
-	<version>0.2.10-SNAPSHOT</version>
+	<version>0.2.11-SNAPSHOT</version>
 
 	<properties>
 		<maven-release-plugin.version>3.0.0-M4</maven-release-plugin.version>
@@ -14,7 +14,7 @@
 		<connection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</connection>
 		<developerConnection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</developerConnection>
 		<url>https://github.com/AntonMishyn/testMavenReleasePlugin</url>
-	  <tag>release/0.2.10</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<build>
