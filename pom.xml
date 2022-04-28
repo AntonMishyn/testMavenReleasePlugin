@@ -14,7 +14,8 @@
 		<connection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</connection>
 		<developerConnection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</developerConnection>
 		<url>https://github.com/AntonMishyn/testMavenReleasePlugin</url>
-	</scm>
+	  <tag>release/0.2.10</tag>
+  </scm>
 
 	<build>
 		<plugins>
