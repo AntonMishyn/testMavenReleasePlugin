@@ -13,7 +13,6 @@
 	<scm>
 		<connection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</connection>
 		<developerConnection>scm:git:git@github.com:AntonMishyn/testMavenReleasePlugin.git</developerConnection>
-		<tag>v@{version}</tag>
 		<url>https://github.com/AntonMishyn/testMavenReleasePlugin</url>
 	</scm>
 
@@ -22,7 +21,7 @@
 			<plugin>
 				<groupId>com.amashchenko.maven.plugin</groupId>
 				<artifactId>gitflow-maven-plugin</artifactId>
-				<version>1.13.0</version>
+				<version>1.18.0</version>
 				<configuration>
 					<preReleaseGoals>verify</preReleaseGoals>
 					<gitFlowConfig>
