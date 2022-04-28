@@ -27,6 +27,7 @@
 					<preReleaseGoals>verify</preReleaseGoals>
 					<gitFlowConfig>
 						<developmentBranch>main</developmentBranch>
+						<productionBranch>main</productionBranch>
 					</gitFlowConfig>
 				</configuration>
 			</plugin>
