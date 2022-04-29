@@ -24,8 +24,6 @@
 				<artifactId>gitflow-maven-plugin</artifactId>
 				<version>1.18.0</version>
 				<configuration>
-					<preReleaseGoals>verify</preReleaseGoals>
-					<versionTagPrefix>''</versionTagPrefix>
 					<verbose>true</verbose>
 					<gitFlowConfig>
 						<developmentBranch>main</developmentBranch>
