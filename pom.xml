@@ -25,6 +25,7 @@
 				<version>1.18.0</version>
 				<configuration>
 					<preReleaseGoals>verify</preReleaseGoals>
+					<skipTag>false</skipTag>
 					<gitFlowConfig>
 						<developmentBranch>main</developmentBranch>
 						<productionBranch>main</productionBranch>
