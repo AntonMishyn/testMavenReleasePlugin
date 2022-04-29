@@ -26,6 +26,7 @@
 				<configuration>
 					<verbose>true</verbose>
 					<pushRemote>true</pushRemote>
+					<noBackMerge>true</noBackMerge>
 					<gitFlowConfig>
 						<developmentBranch>main</developmentBranch>
 						<productionBranch>main</productionBranch>
