@@ -26,6 +26,7 @@
 				<configuration>
 					<releaseRebase>true</releaseRebase>
 					<noBackMerge>true</noBackMerge>
+					<pushRemote>false</pushRemote>
 					<gitFlowConfig>
 						<developmentBranch>main</developmentBranch>
 						<productionBranch>main</productionBranch>
