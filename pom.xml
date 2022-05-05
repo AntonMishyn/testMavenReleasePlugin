@@ -24,9 +24,12 @@
 				<artifactId>gitflow-maven-plugin</artifactId>
 				<version>1.18.0</version>
 				<configuration>
-					<releaseRebase>true</releaseRebase>
-					<noBackMerge>true</noBackMerge>
-					<pushRemote>false</pushRemote>
+					<keepBranch>true</keepBranch>
+<!--					<releaseRebase>true</releaseRebase>-->
+					<noBackMerge>false</noBackMerge>
+					<skipReleaseMergeProdBranch>true</skipReleaseMergeProdBranch>
+<!--					<pushRemote>false</pushRemote>-->
+<!--					<tychoBuild>true</tychoBuild>-->
 					<gitFlowConfig>
 						<developmentBranch>main</developmentBranch>
 						<productionBranch>main</productionBranch>
